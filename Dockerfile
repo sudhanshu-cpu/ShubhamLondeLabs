@@ -3,7 +3,7 @@ WORKDIR app
 COPY . . 
 RUN npm install
 RUN npm run test
-#EXPOSE 9090
+EXPOSE 9090
 CMD ["node","app.js"]
 
 
